@@ -4,8 +4,7 @@
 
 **Criei este projeto com o intuito de treinar minhas habilidades em HTML e CSS. _O projeto ainda está em desenvolvimento_.**
 
-    Ao decorrer do desenvolvimento, fui me aprimorando e aprendendo coisas novas 
-tais como *parallax, CSS Grid, ferramentas úteis para pesquisar dúvidas,  aprimorei os conceitos do Flexbox etc*.
+Ao decorrer do desenvolvimento, fui me aprimorando e aprendendo coisas novas tais como *parallax, CSS Grid, ferramentas úteis para pesquisar dúvidas,  aprimorei os conceitos do Flexbox etc*.
 
 
 ## Coisas a serem adicionadas:
