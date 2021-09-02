@@ -14,8 +14,7 @@ Ao decorrer do desenvolvimento, fui me aprimorando e aprendendo coisas novas tai
 * provavelmente mais coisas, que ainda não defini.
 
 
-**Muito obrigado por ler, e por visitar o repositório**
+
+**Muito obrigado por ler, e por visitar o repositório.**
 **_Fique a vontade para enviar feedbacks!!_**
-
-
 *-Drop by drop.*
