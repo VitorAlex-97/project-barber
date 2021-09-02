@@ -1,0 +1,848 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond:ital,wght@0,400;1,300&display=swap');
+
+
+
+:root {
+    --brown-draker: #59381B;
+    --brown: #A66329;
+    --brown-light: #f8d8b0;
+    --skin-color: #f1e6e1;
+    --black: #0D0D0D;
+    --grey: rgb(155, 155, 155);
+
+}
+
+/*====== RESET ======*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+
+}
+
+/*Títulos*/
+h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    font-style: oblique;
+    color: var(--brown);
+    line-height: 4.3rem;
+    text-align: center;
+    margin: 15px;
+}
+
+h4 {
+    font-family: 'work sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--grey);
+    padding: 5px;
+}
+
+h6 {
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    font-style: italic;
+    margin: 10px;
+}
+
+ p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    text-align: justify;
+    margin: 10px;
+ }
+
+
+/*====== RESET ======*/
+
+html {
+    /*a cada 1rem -> 10px*/
+    font-size: 65.5%;
+    line-height: 65.5%;
+}
+
+
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+/*========== HEADER ============*/
+
+#header-page {
+    background: url(../assets/img/header-background3.jpg);
+    height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-evenly   ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.menu-header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-page nav ul {
+    display: flex;
+}
+
+#header-page nav ul li { 
+    margin: 0 1rem;
+    line-height: 2.1rem;
+}
+
+#header-page nav ul a {
+    padding: 10px;
+    color: #ffff;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    border-radius: 6px;
+    transition: background 0.5s;
+}
+
+#header-page nav ul a:hover {
+    background: #ffff;
+    color: var(--brown);
+    border-radius: 6px;
+}
+
+#header-page .menu-header a.logo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.logo {
+    border-radius: 50%; 
+}
+
+.container-slogan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;  
+}
+
+.slogan {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    margin-top: -80px;
+}
+
+.slogan h1, 
+.slogan h5 {
+    font-family: 'work sans', sans-serif;
+    font-style: italic;
+}
+
+.slogan h1.tittle-slogan {
+    font-size: 4.2rem;
+    line-height: 4.2rem;
+    font-weight: bolder;
+    color: var(--brown);
+    text-align: left; 
+    align-self: flex-start; 
+}
+
+.slogan h5.subtittle-slogan {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    color: #ffff;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.mk-appointment {
+    margin-top: 38vh;
+    padding: 18px;
+    font-weight: 999;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: var(--black);
+    background: #ffff;
+    transition: background 0.5s;
+}
+
+
+.mk-appointment:hover {
+    background: var(--brown);
+    color: #ffff;
+}
+
+
+/*========== FIM HEADER ============*/
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+/*========== SECTION ARTICLE ============*/
+
+.section-article {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-section-article {
+    width: 550px; 
+}
+
+.img-section-article img {
+    height: 74vh;
+    width: 550px;
+}
+
+.section-article article.info-article {
+    width: 40%;
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.section-article article.info-article .tittle-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+
+.section-article article.info-article .tittle-article h6 {
+
+}
+
+.section-article article.info-article a.button-readmore {
+    align-self:flex-end;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #ffff;
+    background: var(--brown);
+    padding: 15px 8px;
+    margin: 10px;
+    border: 1px solid var(--skin-color);
+    transition: background 0.5s, border-color 0.5s;
+}
+
+.section-article article.info-article a.button-readmore:hover {
+    background: var(--black);
+    border-color: var(--brown);
+}
+
+/*========== FIM SECTION ARTICLE ============*/
+
+
+
+
+/*========== SECTION TWO ============*/
+#section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    height: 120vh;
+    width: 100%;
+
+    font-family: 'Cormorant Garamond', sans-serif ;
+
+    background-color: var(--skin-color);
+}
+
+#section-two .header-section-two h1 {
+    font-size: 6.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 6.8rem;
+    color: var(--black);
+}
+
+
+#section-two .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-two .content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 50vh;
+    width: 270px;
+    margin: 10px;
+
+    background: #ffff;
+
+    transition: background, 0.75s;
+    
+}
+
+#section-two .content article:hover {
+    background: var(--brown-light);
+}
+
+#section-two .content article img {
+    height: 100px;
+    width: 100px;
+}
+
+#section-two .content article h2 a {
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    line-height: 3.2rem;
+    color: var(--black);
+}
+
+
+#section-two .content article h2 a:hover {
+    color: var(--brown);
+}
+
+
+#section-two .content article a {
+    color: var(--brown);
+    font-family: 'work sans', sans-serif;
+}
+
+#section-two .content article a:hover {
+    color: var(--black);
+}
+/*========== FIM SECTION ONE ============*/
+
+
+
+/*========== SECTION ARTIGO 2 ============*/
+
+.order-one {
+    order: 1;
+}
+
+.order-two {
+    order: 2;
+}
+/*========== FIM SECTION ARTIGO 2 ============*/
+
+
+
+/*========== SECTION PARALLAX ============*/
+
+.section-parallax {
+    background: url(../assets/img/parallax-effect3.jpg) no-repeat fixed center;
+    background-size: cover;
+    opacity: 1;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-parallax span {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--skin-color)
+}
+
+/*========== FIM SECTION PARALLAX ============*/
+
+
+
+/*========== SECTION ABOUT ME ============*/
+.section-about-me {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120vh;
+}
+
+.section-about-me .img-about-me {
+    background: url(../assets/img/teste1.png) no-repeat center right;
+    height: 74vh;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-about-me .img-about-me img {
+    height: 100%;
+}
+
+.section-about-me article.about-me {
+    width: 40%;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*========== FIM SECTION ABOUT ME ============*/
+
+
+
+
+/*========== SECTION PRICE ============*/
+.section-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--skin-color);
+}
+
+.section-price .img-section-price {
+    height: 105vh;
+    width: 700px;
+    background: url(../assets/img/prices3.png) no-repeat top left;
+}
+
+.section-price .img-section-price img {
+    height: 100%;
+}
+
+.section-price .price-list {
+    margin: 10px;
+}
+
+.section-price .price-tittle {
+    margin: 10px;
+    width: 300px;
+}
+
+.section-price .price-tittle h1,
+.section-price .price-tittle h4 {
+    text-align: left;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.section-price .price-tittle h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 550;
+}
+
+.section-price .price-tittle h4 {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+}
+
+.section-price .price-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.section-price ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 50vh;
+    align-items: center;
+
+}
+
+.section-price ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+
+    border-bottom: 1px solid var(--brown-light);
+    padding: 10px;
+
+}
+
+.section-price ul li .color {
+    color: var(--brown);
+}
+
+.section-price a.mk-appointment-price {
+    margin-top: 8vh;
+}
+
+/*========== FIM SECTION PRICE ============*/
+
+
+
+
+
+/*========== SECTION GALERY ============*/
+
+.section-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 105vh;
+}
+
+
+
+.section-gallery .photos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.section-gallery .photos img {
+    width: 200px;
+    height: 180px;
+    margin: 5px;
+
+    transition: opacity 0.75s;
+}
+
+.section-gallery .photos img:hover {
+    opacity: 0.6;
+    cursor:pointer;
+}
+
+.section-gallery .tittle-gallery h1 {
+    font-family: 'Cormorant garamond', sans-serif;
+    font-size: 6.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 6.8rem;
+    color: var(--black);
+}
+
+/*========== FIM SECTION GALERY ============*/
+
+
+
+/*========== SECTION CONTACT ============*/
+
+.section-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    height: 105vh;
+    background: var(--skin-color);
+}
+
+.section-contact iframe {
+    justify-self: end;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.section-contact .informations {
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: stretch;
+
+    width: 350px;
+    height: 100%;
+    
+}
+
+.section-contact header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    
+    height: 35vh;
+}
+
+.section-contact header h4 {
+    text-align: left;
+}
+
+
+.section-contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 50vh;
+}
+
+.section-contact .informations ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 70px; 
+}
+
+.section-contact .informations ul li > i {
+    color: var(--brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+}
+
+.section-contact .informations ul li > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    margin-left: 10px;
+    height: 100%;
+}
+
+
+.section-contact .informations span {
+    display: inline-block;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+
+    transition: color 0.25s;
+}
+
+.section-contact .informations a span:hover {
+    color: var(--brown);
+}
+
+/*========== FIM SECTION CONTACT ============*/
+
+
+/*========== SECTION APPOINTMENT ============*/
+
+.section-appointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 105vh;
+
+    background: url(../assets/img/parallax-effect3.jpg) fixed;
+}
+
+.section-appointment header {
+    width: 400px;
+}
+
+.section-appointment header h1 {
+    color: var(--skin-color);
+    font-weight: bolder;
+}
+
+.section-appointment header h4 {
+    color: var(--brown-light);
+}
+
+
+.section-appointment form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 60vh;
+    width: 400px;
+}
+
+.section-appointment form input[type=text],
+.section-appointment form textarea,
+.section-appointment form label {
+    width: 100%;
+    font-size: 1.8rem ;
+    line-height: 1.8rem;
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+    color: var(--skin-color);
+    
+}
+
+.section-appointment form input[type=text],
+.section-appointment form textarea,
+.section-appointment form button {
+    border: 1px solid var(--skin-color);
+}
+
+.section-appointment form input[type=text] {
+    height: 8vh;
+    background: var(--black);
+}
+
+.section-appointment form label {
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 1.5rem ;
+    line-height: 1.5rem;
+
+    margin-bottom: -5px;
+}
+
+
+.section-appointment form textarea {
+    height: 16vh;
+    background: var(--black);
+    resize: none;
+}
+
+.section-appointment form button {
+    padding: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: #ffff;
+    background: var(--black);
+    transition: background 0.5s;
+}
+
+.section-appointment form button:hover {
+    background: var(--brown);
+    cursor: pointer;
+}
+
+/*========== FIM SECTION APPOINTMENT ============*/
+
+
+
+/*========== FOOTER ============*/
+
+footer {
+    background: var(--black);
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo-footer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+footer ul li a {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    background: #ffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: color 0.25s;
+}
+
+footer ul li a:hover {
+    color: var(--brown);
+}
+
+footer ul li i {
+    background: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    
+}
+
+footer h4 {
+    font-style: normal;
+}
+
+/*========== FIM FOOTER ============*/
+
+/*  border: 1px solid red; */
+
